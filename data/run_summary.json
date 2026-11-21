@@ -1,0 +1,102 @@
+{
+  "startedAt": "2026-11-21T04:13:07Z",
+  "phases": {
+    "startups": {
+      "records": 6301,
+      "dropped_invalid": 0
+    },
+    "products": {
+      "records": 1200,
+      "dropped_invalid": 0
+    },
+    "papers": {
+      "records": 1100,
+      "dropped_invalid": 0
+    },
+    "news": {
+      "records": 14,
+      "dropped_invalid": 0
+    },
+    "jobs": {
+      "records": 63,
+      "dropped_invalid": 0
+    }
+  },
+  "pwc_index_size": 204750,
+  "github_stars": {
+    "repos_considered": 1095,
+    "repos_fetched": 29,
+    "papers_with_stars": 29,
+    "rate_limited": true
+  },
+  "papers_with_github_url": 1100,
+  "news_sources": {
+    "TechCrunch AI": {
+      "entries": 20,
+      "kept": 5,
+      "error": null
+    },
+    "The Verge AI": {
+      "entries": 10,
+      "kept": 4,
+      "error": null
+    },
+    "Google AI Blog": {
+      "entries": 20,
+      "kept": 0,
+      "error": null
+    },
+    "MarkTechPost": {
+      "entries": 10,
+      "kept": 2,
+      "error": null
+    },
+    "MIT News AI": {
+      "entries": 50,
+      "kept": 3,
+      "error": null
+    }
+  },
+  "job_sources": {
+    "Hacker News Jobs": {
+      "entries": 31,
+      "kept": 0,
+      "error": null
+    },
+    "RemoteOK": {
+      "entries": 98,
+      "kept": 0,
+      "error": null
+    },
+    "Arbeitnow": {
+      "entries": 300,
+      "kept": 46,
+      "error": null
+    },
+    "Jobicy": {
+      "entries": 50,
+      "kept": 17,
+      "error": null
+    },
+    "We Work Remotely": {
+      "entries": 25,
+      "kept": 0,
+      "error": null
+    }
+  },
+  "http": {
+    "requests": 83,
+    "retries": 4,
+    "rate_limited": 0,
+    "failures": 1
+  },
+  "entity_mapping_rows": 6705,
+  "extraction_tiers_used": {
+    "rule-based": 77
+  },
+  "llm_tiers_configured": [],
+  "finishedAt": "2026-11-21T04:15:56Z",
+  "papers_note": "Selection switched to PWC-first after run 1 measured 0% repo correlation for newest-first arXiv selection.",
+  "fresh_phase_rerun_at": "2026-11-21T04:21:59Z",
+  "note": "Fresh phase re-run once after a role-family classifier fix (data scien* stem); bulk phases from the main run."
+}

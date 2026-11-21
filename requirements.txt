@@ -1,0 +1,6 @@
+aiohttp>=3.9
+feedparser>=6.0
+# Optional, only needed for the documented JS-heavy fallback path:
+# playwright>=1.44
+# Dev/test:
+pytest>=8.0

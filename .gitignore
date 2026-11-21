@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+data/pwc_links.json
+data/state_first_seen.json
+*.tmp
